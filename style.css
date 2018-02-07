@@ -9,12 +9,12 @@ body{
   line-height: 1.6em;
 }
 
-h1, h2, h3{
+h1, h2, h3, a.btn-spotify-playlist{
   font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-  color: #DD5555;
+  color: #84B0C4;
   font-size: 22px;
 }
 
@@ -23,7 +23,7 @@ h2{
   font-weight: 300;
 }
 
-h3{
+h3, a.btn-spotify-playlist{
   font-size: 16px;
   font-weight: 300;
 }
@@ -38,7 +38,7 @@ a{
 }
 
 a:hover{
-  color: #DD5555;
+  color: #84B0C4;
   text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ a:hover{
 }
 .card{
   background: white;
+  width: 550px;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -76,6 +77,7 @@ a:hover{
   color: white;
   font-weight: 500;
   padding: 10px;
+  margin: 10px;
   border-radius: 4px;
 }
 .btn-red:hover{
@@ -100,4 +102,79 @@ a:hover{
 }
 #movies td{
   padding: 10px;
+}
+
+/*Sidebar*/
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #1F363D;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
+/* Music div css */
+#music{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#music img{
+  width: 80px;
+}
+#music td{
+  padding: 10px;
+}
+
+.embed-spotify-playlist{
+  height: 80px;
+  width: 350px;
+  margin-top: 10px;
+}
+
+a.link_music_movie, a.link_music_movie:hover{
+  color: #7d7d7d;
+  font-weight: 400;
+}
+
+a.link_music_movie:hover{
+  color: #84B0C4;
 }
