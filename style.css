@@ -187,8 +187,8 @@ a.link_music_movie:hover{
 .lumni-02 { background-image: url('images/lumni/lumni-2.jpg'); }
 .lumni-03 { background-image: url('images/lumni/lumni-3.jpg'); }
 
-.cubelight-01 { background-image: url('images/cubelight/cubelight-1.jpg'); }
-.cubelight-02 { background-image: url('images/cubelight/cubelight-2.jpg'); }
+.cubelight-01 { background-image: url('images/cubelight/cubelight-2.jpg'); }
+.cubelight-02 { background-image: url('images/cubelight/cubelight-1.jpg'); }
 .cubelight-03 { background-image: url('images/cubelight/cubelight-3.jpg'); }
 
 @media screen and (max-width: 400px) {
