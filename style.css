@@ -183,9 +183,9 @@ a.link_music_movie:hover{
   flex-wrap: wrap;
 }
 
-.lumni-01 { background-image: url('images/cubelight/cubelight-1.jpg'); }
-.lumni-02 { background-image: url('images/cubelight/cubelight-2.jpg'); }
-.lumni-03 { background-image: url('images/cubelight/cubelight-3.jpg'); }
+.lumni-01 { background-image: url('images/lumni/lumni-1.jpg'); }
+.lumni-02 { background-image: url('images/lumni/lumni-2.jpg'); }
+.lumni-03 { background-image: url('images/lumni/lumni-3.jpg'); }
 
 .cubelight-01 { background-image: url('images/cubelight/cubelight-1.jpg'); }
 .cubelight-02 { background-image: url('images/cubelight/cubelight-2.jpg'); }
