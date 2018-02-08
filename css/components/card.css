@@ -14,33 +14,19 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-/*test*/
+/*Music cards*/
 
-.tabs {
-    display: flex;
-    align-items: center;
-}
-
-.tab {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    opacity: 0.3;
-    border-bottom: 5px solid transparent;
-    text-decoration: none;
-    color: black;
-}
-
-.inbox {
+.music-container {
   background: white;
   width: 45vw;
   padding: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-.message {
+.music-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +34,7 @@
     border-bottom: 1px solid rgba(220,224,244,0.4);
 }
 
-.message-body {
+.music-card-body {
     padding-left: 20px;
     color: rgba(0,0,0,0.4);
     flex-grow: 1;
