@@ -1,0 +1,26 @@
+/* Your banner CSS file */
+.banner{
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-content p {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+  color: white;
+}
+.banner-content h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  color: white;
+}
