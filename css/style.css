@@ -7,12 +7,15 @@
 
 /* Responsive layout behavior */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #content{
     margin-left: 0px;
   }
   #sidebar {
     display: none;
+  }
+  .card, .music-container {
+    width: 70vw;
   }
 }
 
