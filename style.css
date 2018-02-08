@@ -48,7 +48,7 @@
 /* Colors and Fonts */
 
 body{
-  background: linear-gradient(135deg, #24363C, #46ACC2, #42F2F7);
+  background: linear-gradient(135deg, #24363C 15%, #46ACC2 85%, #42F2F7);
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
