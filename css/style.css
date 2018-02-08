@@ -27,22 +27,22 @@ body{
   line-height: 1.6em;
 }
 
-h1, h2, h3, a.btn-spotify-playlist{
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: #7d7d7d;
 }
 
-h1{
+h1 {
   color: #84B0C4;
   font-size: 22px;
 }
 
-h2{
+h2 {
   font-size: 18px;
   font-weight: 300;
 }
 
-h3, a.btn-spotify-playlist{
+h3 {
   font-size: 16px;
   font-weight: 300;
 }
@@ -84,17 +84,18 @@ a:hover{
   font-size: 15px;
   line-height: 1.6em;
 }
-#movies img, #music img, #projects img{
+
+#movies img, #music img, #projects img, .music-img{
   width: 80px;
 }
+
 #movies td, #music td, #projects td{
   padding: 10px;
 }
 
 .embed-spotify-playlist{
   height: 80px;
-  width: 450px;
-  margin-top: 10px;
+  width: 30vw;
 }
 
 a.link_music_movie, a.link_music_movie:hover{

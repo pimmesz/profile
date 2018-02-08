@@ -4,6 +4,7 @@
   align-items: center;
   margin: 30px auto;
 }
+
 .card{
   background: white;
   width: 45vw;
@@ -11,4 +12,44 @@
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*test*/
+
+.tabs {
+    display: flex;
+    align-items: center;
+}
+
+.tab {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0.3;
+    border-bottom: 5px solid transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.inbox {
+  background: white;
+  width: 45vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(220,224,244,0.4);
+}
+
+.message-body {
+    padding-left: 20px;
+    color: rgba(0,0,0,0.4);
+    flex-grow: 1;
 }
