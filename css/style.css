@@ -17,6 +17,9 @@
   .card, .music-container {
     width: 70vw;
   }
+  .embed-spotify-playlist {
+    width: 50vw !important;
+  }
 }
 
 /* Colors and Fonts */
