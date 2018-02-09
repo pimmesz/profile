@@ -14,7 +14,7 @@
   #sidebar {
     display: none;
   }
-  .card, .music-container, .projects-container {
+  .card, .card-container {
     width: 70vw;
   }
   .embed-spotify-playlist, .projects-text {
