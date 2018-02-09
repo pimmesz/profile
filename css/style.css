@@ -14,10 +14,10 @@
   #sidebar {
     display: none;
   }
-  .card, .music-container {
+  .card, .music-container, .projects-container {
     width: 70vw;
   }
-  .embed-spotify-playlist {
+  .embed-spotify-playlist, .projects-text {
     width: 50vw !important;
   }
 }
