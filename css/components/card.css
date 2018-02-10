@@ -15,12 +15,6 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-.card-title {
-  margin-bottom: 30px;
-}
-
-/*Music cards*/
-
 .card-container {
   background: white;
   width: 45vw;
@@ -36,6 +30,12 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.music-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-img {
