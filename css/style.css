@@ -18,7 +18,7 @@
   .card, .card-container {
     width: 70vw;
   }
-  .embed-spotify-playlist, .projects-text {
+  .projects-text {
     width: 50vw !important;
   }
 
@@ -102,8 +102,7 @@ a:hover{
 
 .embed-spotify-playlist{
   height: 80px;
-  margin-bottom: 15px;
-  margin-right: 10px;
+  width: 100%;
 }
 
 a.link_music_movie, a.link_music_movie:hover{
