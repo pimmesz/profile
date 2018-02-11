@@ -2,6 +2,7 @@
 @import url("components/button.css");
 @import url("components/banner.css");
 @import url("components/card.css");
+@import url("components/navbar.css");
 @import url("components/projects-img-grid.css");
 @import url("components/sidebar.css");
 @import url("components/social-icon.css");
@@ -15,15 +16,8 @@
   #sidebar {
     display: none;
   }
-  .card, .card-container {
-    width: 70vw;
-  }
-  .projects-text {
-    width: 50vw !important;
-  }
-
-  body, p {
-    font-size: 20px;
+  .card, .card-top, .card-container {
+    width: 80vw;
   }
 }
 
@@ -96,12 +90,8 @@ a:hover{
   line-height: 1.6em;
 }
 
-#movies img, #music img, #projects img, .music-img{
-  width: 80px;
-}
-
 .embed-spotify-playlist{
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 

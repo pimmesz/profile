@@ -10,12 +10,13 @@
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 120px;
+  width: 100px;
   text-align: center;
 }
 
 #sidebar ul {
   list-style: none;
+  margin-top: 100px;
   padding-left: 0px;
 }
 
