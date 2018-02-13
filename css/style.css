@@ -9,15 +9,21 @@
 
 /* Responsive layout behavior */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
   #content{
     margin-left: 0px;
   }
-  #sidebar {
-    display: none;
-  }
   .card, .card-top, .card-container {
     width: 80vw;
+  }
+  #movies, #music, #projects{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #sidebar {
+    display: none;
   }
 }
 
