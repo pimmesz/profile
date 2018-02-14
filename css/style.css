@@ -63,7 +63,8 @@ p{
 }
 
 a{
-  color: #ccc;
+  color: #7d7d7d;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -99,13 +100,4 @@ a:hover{
 .embed-spotify-playlist{
   height: 90px;
   width: 100%;
-}
-
-a.link_music_movie, a.link_music_movie:hover{
-  color: #7d7d7d;
-  font-weight: 400;
-}
-
-a.link_music_movie:hover{
-  color: #84B0C4;
 }
