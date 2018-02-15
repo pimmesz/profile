@@ -12,6 +12,7 @@
   bottom: 0px;
   width: 100px;
   text-align: center;
+  z-index: 0;
 }
 
 #sidebar ul {
