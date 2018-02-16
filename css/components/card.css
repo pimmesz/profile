@@ -2,12 +2,20 @@
   margin-top: 50px;
 }
 
-.card, .card-top {
+.card-bottom {
+  margin-bottom: 100px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card, .card-top, .card-bottom {
   background: white;
   padding: 20px;
-  margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background-color: #204B93;
 }
 
 .card-body {
