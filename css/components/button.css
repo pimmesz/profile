@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #204B93;
   height: 90px;
   width: 90px;
   margin-bottom: 10px;
@@ -14,10 +13,11 @@
   font-size: 16px;
   background: #ffffff;
   transition: background 0.3s ease;
+  color: #204B93 !important;
 }
 
 .btn-spotify-playlist:hover {
-  background: #3ac162;
+  background: #D6DEEB;
   text-decoration: none;
   color: white;
 }

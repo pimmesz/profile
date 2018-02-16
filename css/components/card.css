@@ -21,6 +21,10 @@
   background-color: #204B93;
 }
 
+.card a, .card-top a, .card-bottom a {
+  color: #ffffff;
+}
+
 .card-body {
   display: flex;
   align-items: center;
