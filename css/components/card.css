@@ -1,13 +1,16 @@
 .card-top {
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .card-bottom {
   margin-bottom: 100px;
+  margin-top: 10px;
 }
 
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .card, .card-top, .card-bottom {
