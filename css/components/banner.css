@@ -8,19 +8,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
-}
-
-.banner-content{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  background: url("images/cubelight/cubelight-3.jpg") no-repeat center right;
 }
 
 .banner-content p {
   margin: 0;
   font-family: Open-sans, sans-serif;
   color: white;
+  text-align: center;
 }
 .banner-content h1, h2, h3 {
   font-family: Raleway, Helvetica, sans-serif;
