@@ -38,6 +38,10 @@
   padding-bottom: 20px;
 }
 
+.card-column {
+  flex-direction: column
+}
+
 .card-text {
   display: flex;
   align-items: center;
