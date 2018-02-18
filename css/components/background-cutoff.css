@@ -22,14 +22,14 @@
 
 @media only screen and (max-width: 768px) {
   .cutoff-blue-background {
-    height: 190vh;
+    height: 210vh;
     position: relative;
     background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
     background: -webkit-linear-gradient(left top,#155799,#2097f3);
     background: -o-linear-gradient(left top,#155799,#2097f3);
     background: linear-gradient(to right bottom,#155799,#2097f3);
-    -webkit-clip-path: polygon(0 0,100% 0,100% 170vh,0 100%);
-    clip-path: polygon(0 0,100% 0,100% 170vh,0 100%);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 195vh,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 195vh,0 100%);
   }
 }
 
