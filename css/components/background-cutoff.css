@@ -20,6 +20,19 @@
   clip-path: polygon(0 0,100% 0,100% 115vh,0 100%);
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .cutoff-blue-background {
+    height: 180vh;
+    position: relative;
+    background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
+    background: -webkit-linear-gradient(left top,#155799,#2097f3);
+    background: -o-linear-gradient(left top,#155799,#2097f3);
+    background: linear-gradient(to right bottom,#155799,#2097f3);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 150vh,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 150vh,0 100%);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .cutoff-blue-background {
     height: 210vh;
