@@ -1,5 +1,5 @@
 /* Your banner CSS file */
-.banner{
+.banner {
   color: white;
   text-align: center;
   height: 100vh;
@@ -8,7 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("images/cubelight/cubelight-3.jpg") no-repeat center right;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    background: url("images/cubelight/cubelight-3.jpg") no-repeat center right;
+  }
 }
 
 .banner-content p {
