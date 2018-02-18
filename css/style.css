@@ -22,12 +22,6 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
-  #sidebar {
-    display: none;
-  }
-}
-
 /* Colors and Fonts */
 
 body{
