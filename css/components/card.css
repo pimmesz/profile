@@ -83,6 +83,41 @@
   background-position: center;
 }
 
+.projects-img:hover {
+  -moz-transform: scale(1.02,1.02);
+  -webkit-transform: scale(1.02,1.02);
+  transform: scale(1.02,1.02);
+}
+
+.projects-description-img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -moz-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-description-img:hover {
+  -moz-transform: scale(1.02,1.02);
+  -webkit-transform: scale(1.02,1.02);
+  transform: scale(1.02,1.02);
+}
+
+.projects-description-text {
+  color: #204B93;
+  margin: 50px;
+  flex: initial;
+  width: 400px;
+}
+
 .overlay {
   display: flex;
   justify-content: center;
@@ -112,33 +147,80 @@
 
 }
 
-.projects-img:hover {
-  -moz-transform: scale(1.02,1.02);
-  -webkit-transform: scale(1.02,1.02);
-  transform: scale(1.02,1.02);
+.projects-cubelight-1 {
+  background-image: url("../../images/cubelight/cubelight-1.jpg") ;
 }
 
-.projects-cubelight {
+.projects-cubelight-2 {
+  background-image: url("../../images/cubelight/cubelight-2.jpg");
+}
+
+.projects-cubelight-3 {
   background-image: url("../../images/cubelight/cubelight-3.jpg") ;
 }
 
-.projects-lumni {
+.projects-cubelight-2-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.0) 50%), url("../../images/cubelight/cubelight-2.jpg");
+}
+
+.projects-lumni-1 {
   background-image: url("../../images/lumni/lumni-1-smaller.jpg") ;
 }
 
-.projects-aztec {
+.projects-lumni-2 {
+  background-image: url("../../images/lumni/lumni-2-smaller.jpg") ;
+}
+
+.projects-lumni-3 {
+  background-image: url("../../images/lumni/lumni-3-smaller.jpg") ;
+}
+
+.projects-lumni-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.0) 50%), url("../../images/lumni/lumni-3.jpg") ;
+}
+
+.projects-aztec-1 {
+  background-image: url("../../images/aztec/aztec-1.jpg") ;
+}
+
+.projects-aztec-2 {
   background-image: url("../../images/aztec/aztec-2.jpg") ;
 }
 
-.projects-display {
+.projects-aztec-3 {
+  background-image: url("../../images/aztec/aztec-3.jpg") ;
+}
+
+.projects-aztec-4 {
+  background-image: url("../../images/aztec/aztec-4.jpg") ;
+}
+
+.projects-aztec-5 {
+  background-image: url("../../images/aztec/aztec-5.jpg") ;
+}
+
+.projects-aztec-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/aztec/aztec-5.jpg");
+}
+
+.projects-display-1 {
   background-image: url("../../images/smart-window-display/smart-window-display-1.jpg") ;
 }
 
-.projects-filler {
-  background-image: url("https://source.unsplash.com/random") ;
+.projects-display-2 {
+  background-image: url("../../images/smart-window-display/smart-window-display-2.jpeg") ;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
+.projects-display-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/smart-window-display/smart-window-display-1.jpg");
+}
+
+.projects-filler {
+  background-image: url("https://source.unsplash.com/random");
+}
 
 .container h1 {
-  color: #204B93;;
+  color: #204B93;
 }
