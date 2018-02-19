@@ -21,3 +21,24 @@
   text-decoration: none;
   color: white;
 }
+
+.btn-projects {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  background: rgba(55,127,203,1);
+  transition: background 0.3s ease;
+  color: #ffffff;
+}
+
+.btn-projects:hover {
+  background: rgba(55,127,203,0.7);
+}
