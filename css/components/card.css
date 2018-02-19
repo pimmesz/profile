@@ -1,6 +1,6 @@
 .contact-text {
-  color: #204B93;
   font-weight: bold;
+  padding-top: 30px;
 }
 
 .card-top {
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .card-column {
@@ -50,4 +50,30 @@
 
 .card-img {
   width: 90px;
+}
+
+.card-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.projects-img img {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container h1 {
+  color: #204B93;;
 }

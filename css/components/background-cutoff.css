@@ -1,37 +1,37 @@
-.cutoff-blue-background {
-  height: 140vh;
+.cutoff-blue-background-right {
+  height: 150vh;
   position: relative;
   background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
   background: -webkit-linear-gradient(left top,#155799,#2097f3);
   background: -o-linear-gradient(left top,#155799,#2097f3);
   background: linear-gradient(to right bottom,#155799,#2097f3);
-  -webkit-clip-path: polygon(0 0,100% 0,100% 115vh,0 100%);
-  clip-path: polygon(0 0,100% 0,100% 115vh,0 100%);
+  -webkit-clip-path: polygon(0 0,100% 0,100% 125vh,0 100%);
+  clip-path: polygon(0 0,100% 0,100% 125vh,0 100%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .cutoff-blue-background {
-    height: 180vh;
+  .cutoff-blue-background-right {
+    height: 160vh;
     position: relative;
     background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
     background: -webkit-linear-gradient(left top,#155799,#2097f3);
     background: -o-linear-gradient(left top,#155799,#2097f3);
     background: linear-gradient(to right bottom,#155799,#2097f3);
-    -webkit-clip-path: polygon(0 0,100% 0,100% 150vh,0 100%);
-    clip-path: polygon(0 0,100% 0,100% 150vh,0 100%);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 130vh,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 130vh,0 100%);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .cutoff-blue-background {
-    height: 220vh;
+  .cutoff-blue-background-right {
+    height: 200vh;
     position: relative;
     background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
     background: -webkit-linear-gradient(left top,#155799,#2097f3);
     background: -o-linear-gradient(left top,#155799,#2097f3);
     background: linear-gradient(to right bottom,#155799,#2097f3);
-    -webkit-clip-path: polygon(0 0,100% 0,100% 205vh,0 100%);
-    clip-path: polygon(0 0,100% 0,100% 205vh,0 100%);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 180vh,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 180vh,0 100%);
   }
 }
 
@@ -56,4 +56,15 @@
     -webkit-clip-path: polygon(0 0,100% 15vh,100% 80%,0 100%);
     clip-path: polygon(0 0,100% 15vh,100% 80%,0 90%);
   }
+}
+
+.cutoff-blue-background-left {
+    height: 30vh;
+    background: -webkit-gradient(linear,left top,right bottom,from(#155799),to(#2097f3));
+    background: -webkit-linear-gradient(left top,#155799,#2097f3);
+    background: -o-linear-gradient(left top,#155799,#2097f3);
+    background: linear-gradient(to right bottom,#155799,#2097f3);
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,100% 20%,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 20%,100% 100%,0 100%);
 }

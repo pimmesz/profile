@@ -86,14 +86,6 @@ a:hover{
   font-size: 25px;
 }
 
-/* Specific movies & music rules */
-
-#movies, #music, #projects{
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.6em;
-}
-
 .embed-spotify-playlist{
   height: 90px;
   width: 100%;

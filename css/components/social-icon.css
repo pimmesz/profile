@@ -4,6 +4,14 @@
   margin: 10px 30px 10px 30px;
 }
 
+.social-icon a {
+  color: rgba(255,255,255,1);
+}
+
+.social-icon a:hover {
+  color: rgba(255,255,255,0.7);
+}
+
 @media only screen and (max-width: 768px) {
   .social-icon {
     margin: 10px 20px 10px 20px;
