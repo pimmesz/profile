@@ -7,6 +7,7 @@
 @import url("components/projects-img-grid.css");
 @import url("components/sidebar.css");
 @import url("components/social-icon.css");
+@import url("components/stars.css");
 
 /* Responsive layout behavior */
 
@@ -25,7 +26,7 @@
 /* Colors and Fonts */
 
 body{
-  background: #ffffff;
+  background: #f0f0f0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #ffffff;

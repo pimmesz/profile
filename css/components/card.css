@@ -83,7 +83,23 @@
   background-position: center;
 }
 
-.projects-img:hover {
+.projects-img-gif {
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -moz-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-img:hover, .projects-img-gif:hover {
   -moz-transform: scale(1.02,1.02);
   -webkit-transform: scale(1.02,1.02);
   transform: scale(1.02,1.02);
@@ -228,7 +244,7 @@
 }
 
 .projects-spacewagon-background {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/spacewagon/spacewagon-background-2.png");
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/spacewagon/spacewagon-background.png");
 }
 
 .projects-filler {
