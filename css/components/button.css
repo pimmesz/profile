@@ -40,5 +40,6 @@
 }
 
 .btn-projects:hover {
+  color: #ffffff;
   background: rgba(55,127,203,0.7);
 }
