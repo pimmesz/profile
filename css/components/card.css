@@ -223,6 +223,14 @@
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/smart-window-display/smart-window-display-1.jpg");
 }
 
+.projects-spacewagon-1 {
+  background-image: url("../../images/spacewagon/spacewagon-screenshot-2.gif");
+}
+
+.projects-spacewagon-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/spacewagon/spacewagon-background-2.png");
+}
+
 .projects-filler {
   background-image: url("https://source.unsplash.com/1600x900/?red");
 }
