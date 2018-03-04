@@ -42,6 +42,12 @@
   flex-direction: column
 }
 
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
   .card-text-top {
   margin-top: 50%;
