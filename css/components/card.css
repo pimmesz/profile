@@ -99,6 +99,7 @@
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
 }
 
 @media only screen and (min-width: 768px) {
@@ -128,6 +129,7 @@
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .projects-img:hover, .projects-img-gif:hover {
