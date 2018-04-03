@@ -280,6 +280,14 @@
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/spacewagon/spacewagon-background.png");
 }
 
+.projects-getmydata-logo {
+  background-image: url("../../images/getmydata/getmydata-logo.png");
+}
+
+.projects-getmydata-background {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.0) 60%), url("../../images/getmydata/getmydata-background.jpeg");
+}
+
 .projects-filler {
   background-image: url("https://source.unsplash.com/1600x900/?red");
 }

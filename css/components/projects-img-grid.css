@@ -1,6 +1,6 @@
 /*Image grid*/
 
-.image-grid div {
+/*.image-grid div {
   width: 100%;
   height: 300px;
   background-repeat: no-repeat;
@@ -29,4 +29,4 @@
     flex-wrap: no-wrap;
   }
   .image-grid div { width: 100%; }
-}
+}*/
