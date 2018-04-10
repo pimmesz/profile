@@ -78,13 +78,16 @@ a:hover{
 .text-center{
   text-align: center;
 }
+
 .list-inline {
   padding-left: 0;
 }
+
 .list-inline li {
   display: inline-block;
   padding: 20px;
 }
+
 .list-inline li i{
   font-size: 25px;
 }
